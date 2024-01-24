@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-gif-background {
+    background-image: url('/home/sdosa/Desktop/lurking-skull/public/img/dirtoverlay.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 640px) {
+    .bg-gif-background {
+        background-size: cover;
+    }
+}
