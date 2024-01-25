@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta property="og:image" content="https://ibb.co/4ZH36mz" />
-    <meta property="twitter:image" content="https://ibb.co/4ZH36mz" />
+    <meta property="og:image" content="{{ asset('/public/img/kingwad.jpg') }}" />
+    <meta property="twitter:image" content="{{ asset('/public/img/kingwad.jpg') }}" />
     <meta name="description" content="Lurking Skull is an indie game studio based in Saudi Arabia, specializing in creating captivating horror games. With a focus on immersive storytelling and atmospheric gameplay, the studio crafts unique and bone-chilling experiences that will leave players on the edge of their seats. Delve into the depths of terror and prepare for unforgettable nightmares with Lurking Skull, the Saudi indie game studio that brings fear to life.">
     <title>Lurking Skull</title>
 
