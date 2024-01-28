@@ -6,8 +6,20 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.image-container {
+    width: 600px; /* Set the width and height of the container */
+    height: 400px;
+    background-image: url('/public/img/skully.png'); /* Replace with the URL of your image */
+    background-size: contain; /* Adjust the background-size property as needed */
+    background-position: center; /* Adjust the background-position property as needed */
+    background-repeat: no-repeat;
+}
 @media (max-width: 640px) {
     .bg-gif-background {
         background-size: cover;
+    }
+    .image-container {
+        width: 400px;
+        height: 200px;
     }
 }
